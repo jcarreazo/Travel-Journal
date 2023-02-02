@@ -8,7 +8,7 @@ export default function Header(props) {
           <i class="fa-solid fa-earth-americas fa-2xl"></i>
         </div>
         <div className="HeaderItem-2">
-          <p className="HeaderText">my travel journy</p>
+          <p className="HeaderText">my travel journal.</p>
         </div>
       </div>
     </div>

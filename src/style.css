@@ -22,6 +22,9 @@ p {
 .HeaderContainer > div {
   padding: 0 0.3rem;
 }
+.HeaderText {
+  letter-spacing: -0.09rem;
+}
 .HeaderText,
 .fa-earth-americas {
   color: white;
