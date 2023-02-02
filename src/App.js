@@ -1,17 +1,17 @@
 import React from 'react';
 import './style.css';
 import Section from './Section.js';
-var arrayTest = [1, 5, 6];
-const pokemon = ['Bulbasaur', 'Charmander', 'Squirtle'];
+import Header from './Header.js';
+import Data from './Data.js';
 
-const render = arrayTest.map(function (item) {
-  return <Section value={item} />;
+const render = Data().map(function (item) {
+  return <Section item={item} />;
 });
 
 export default function App() {
   return (
     <div>
-      <div></div>
+      <div>{render}</div>
     </div>
   );
 }

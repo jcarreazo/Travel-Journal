@@ -14,7 +14,7 @@ export default function Data() {
     },
 
     {
-      image: Img2,
+      Image: Img2,
       Alt: 'sydney-opera-house',
       Country: 'AUSTRALIA',
       Destination: 'Sydney Opera House',
@@ -24,7 +24,7 @@ export default function Data() {
     },
 
     {
-      image: Img3,
+      Image: Img3,
       Alt: 'geiranger-fjord',
       Country: 'NORWAY',
       Destination: 'Geirangerfjord',
